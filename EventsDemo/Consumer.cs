@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace EventsDemo
 {
-    class Program
+    class Consumer
     {
-        static void Main(string[] args)
-        {
+        public void ProcessNewMessage(string _text) {
+            Console.WriteLine("Got new message: " + _text + " " + GetHashCode());
         }
     }
 }
