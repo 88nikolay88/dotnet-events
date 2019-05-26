@@ -22,6 +22,8 @@ namespace EventsDemo
             publisher.AddSubscriber(consumer2.ProcessNewMessage);
 
             publisher.Fire("Hello World!");
+
+            // Test
         }
     }
 }
